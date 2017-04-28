@@ -14,11 +14,11 @@
 		private System.Windows.Forms.RadioButton RadioButton1;
 		private System.Windows.Forms.RadioButton RadioButton3;
 		private System.Windows.Forms.RadioButton RadioButton4;
-		private System.Windows.Forms.TabPage tabPage3;
 		private System.Windows.Forms.TabPage tabPage2;
 		private System.Windows.Forms.TabPage tabPage1;
 		private System.Windows.Forms.TabControl tabControl1;
 		private System.Windows.Forms.Label text;
+		private System.Windows.Forms.Button button;
 		/// <summary>
 		/// Nettoyage des ressources utilisées.
 		/// </summary>
@@ -47,6 +47,7 @@
 			this.RadioButton3 = new System.Windows.Forms.RadioButton();
 			this.RadioButton4 = new System.Windows.Forms.RadioButton();
 			this.text = new System.Windows.Forms.Label();
+			this.button = new System.Windows.Forms.Button();
 			this.tabControl1 = new System.Windows.Forms.TabControl();
 			this.tabPage2 = new System.Windows.Forms.TabPage();
 			this.tabPage1.SuspendLayout();
@@ -60,6 +61,7 @@
 			this.tabPage1.Controls.Add(this.RadioButton3);
 			this.tabPage1.Controls.Add(this.RadioButton4);
 			this.tabPage1.Controls.Add(this.text);
+			this.tabPage1.Controls.Add(this.button);
 			this.tabPage1.Location = new System.Drawing.Point(4, 22);
 			this.tabPage1.Name = "tabPage1";
 			this.tabPage1.Size = new System.Drawing.Size(627, 345);
@@ -108,6 +110,14 @@
 			this.text.Text = "Quel est le titre du son ?";
 			this.text.Click += new System.EventHandler(this.text_Click);
 			// 
+			// button
+			// 
+			this.button.Location = new System.Drawing.Point(57, 251);
+			this.button.Name = "button";
+			this.button.Text = "Valider";
+			this.button.Size = new System.Drawing.Size(112, 31);
+			this.button.TabIndex = 6;
+			// 
 			// tabControl1
 			// 
 			this.tabControl1.Controls.Add(this.tabPage1);
@@ -133,6 +143,7 @@
 			this.Name = "Form1";
 			this.Text = "Blind Test Musical";
 			this.tabPage1.ResumeLayout(false);
+			this.tabPage2.ResumeLayout(false);
 			this.tabControl1.ResumeLayout(false);
 			this.ResumeLayout(false);
 
@@ -142,18 +153,7 @@
 		/// <summary>
 		/// 
 		/// </summary>
-		/*private void InitializeComponent() {
-			this.SuspendLayout();
-			// 
-			// Form1
-			// 
-	
-			this.Name = "Blind Test Musical";
-			this.Text = "";
-			this.Load += new System.EventHandler(this.Form1_Load);
-			this.ResumeLayout(false);
 
-		}*/
 	}
 }
 
