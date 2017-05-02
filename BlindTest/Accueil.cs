@@ -29,7 +29,9 @@ namespace BlindTest
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Form1 Form1 = new Form1();
+            Form1.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -40,6 +42,11 @@ namespace BlindTest
         private void button2_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(1);
         }
     }
 }

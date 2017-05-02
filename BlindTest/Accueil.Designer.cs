@@ -6,8 +6,6 @@
 		/// Required designer variable.
 		/// </summary>
 		private System.ComponentModel.IContainer components = null;
-        private System.Windows.Forms.Label text;
-        private System.Windows.Forms.Button button;
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
@@ -40,6 +38,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LightSalmon;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(62, 261);
             this.button1.Name = "button1";
@@ -52,6 +51,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(289, 261);
             this.button2.Name = "button2";
@@ -64,6 +64,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.LightPink;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(511, 261);
             this.button3.Name = "button3";
@@ -71,6 +72,7 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "Quitter";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // pictureBox2
             // 
@@ -94,6 +96,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Accueil";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Accueil_Load);
