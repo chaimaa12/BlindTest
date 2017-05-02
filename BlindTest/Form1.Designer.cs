@@ -6,19 +6,6 @@
 		/// Variable nécessaire au concepteur.
 		/// </summary>
 		private System.ComponentModel.IContainer components = null;
-		//private System.Windows.Forms.TabPage tabControl1;
-	//	private System.Windows.Forms.TabPage tabControl2;
-
-		// Declare variables.
-		private System.Windows.Forms.RadioButton RadioButton2;
-		private System.Windows.Forms.RadioButton RadioButton1;
-		private System.Windows.Forms.RadioButton RadioButton3;
-		private System.Windows.Forms.RadioButton RadioButton4;
-		private System.Windows.Forms.TabPage tabPage2;
-		private System.Windows.Forms.TabPage tabPage1;
-		private System.Windows.Forms.TabControl tabControl1;
-		private System.Windows.Forms.Label text;
-		private System.Windows.Forms.Button button;
 		/// <summary>
 		/// Nettoyage des ressources utilisées.
 		/// </summary>
@@ -41,119 +28,128 @@
 
 		private void InitializeComponent()
 		{
-			this.tabPage1 = new System.Windows.Forms.TabPage();
-			this.RadioButton2 = new System.Windows.Forms.RadioButton();
-			this.RadioButton1 = new System.Windows.Forms.RadioButton();
-			this.RadioButton3 = new System.Windows.Forms.RadioButton();
-			this.RadioButton4 = new System.Windows.Forms.RadioButton();
-			this.text = new System.Windows.Forms.Label();
-			this.button = new System.Windows.Forms.Button();
-			this.tabControl1 = new System.Windows.Forms.TabControl();
-			this.tabPage2 = new System.Windows.Forms.TabPage();
-			this.tabPage1.SuspendLayout();
-			this.tabControl1.SuspendLayout();
-			this.SuspendLayout();
-			// 
-			// tabPage1
-			// 
-			this.tabPage1.Controls.Add(this.RadioButton2);
-			this.tabPage1.Controls.Add(this.RadioButton1);
-			this.tabPage1.Controls.Add(this.RadioButton3);
-			this.tabPage1.Controls.Add(this.RadioButton4);
-			this.tabPage1.Controls.Add(this.text);
-			this.tabPage1.Controls.Add(this.button);
-			this.tabPage1.Location = new System.Drawing.Point(4, 22);
-			this.tabPage1.Name = "tabPage1";
-			this.tabPage1.Size = new System.Drawing.Size(627, 345);
-			this.tabPage1.TabIndex = 0;
-			this.tabPage1.Text = "Blind Test Musical";
-			// 
-			// RadioButton2
-			// 
-			this.RadioButton2.Location = new System.Drawing.Point(40, 112);
-			this.RadioButton2.Name = "RadioButton2";
-			this.RadioButton2.Size = new System.Drawing.Size(152, 24);
-			this.RadioButton2.TabIndex = 1;
-			this.RadioButton2.Text = "radioButton2";
-			// 
-			// RadioButton1
-			// 
-			this.RadioButton1.Location = new System.Drawing.Point(40, 72);
-			this.RadioButton1.Name = "RadioButton1";
-			this.RadioButton1.Size = new System.Drawing.Size(152, 24);
-			this.RadioButton1.TabIndex = 0;
-			this.RadioButton1.Text = "radioButton1";
-			// 
-			// RadioButton3
-			// 
-			this.RadioButton3.Location = new System.Drawing.Point(40, 153);
-			this.RadioButton3.Name = "RadioButton3";
-			this.RadioButton3.Size = new System.Drawing.Size(152, 24);
-			this.RadioButton3.TabIndex = 0;
-			this.RadioButton3.Text = "radioButton3";
-			// 
-			// RadioButton4
-			// 
-			this.RadioButton4.Location = new System.Drawing.Point(40, 194);
-			this.RadioButton4.Name = "RadioButton4";
-			this.RadioButton4.Size = new System.Drawing.Size(152, 24);
-			this.RadioButton4.TabIndex = 4;
-			this.RadioButton4.Text = "radioButton4";
-			// 
-			// text
-			// 
-			this.text.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-			this.text.Location = new System.Drawing.Point(14, 26);
-			this.text.Name = "text";
-			this.text.Size = new System.Drawing.Size(230, 23);
-			this.text.TabIndex = 5;
-			this.text.Text = "Quel est le titre du son ?";
-			this.text.Click += new System.EventHandler(this.text_Click);
-			// 
-			// button
-			// 
-			this.button.Location = new System.Drawing.Point(57, 251);
-			this.button.Name = "button";
-			this.button.Size = new System.Drawing.Size(112, 31);
-			this.button.TabIndex = 6;
-			this.button.Text = "Valider";
-			this.button.Click += new System.EventHandler(this.button_Click);
-			// 
-			// tabControl1
-			// 
-			this.tabControl1.Controls.Add(this.tabPage1);
-			this.tabControl1.Controls.Add(this.tabPage2);
-			this.tabControl1.Location = new System.Drawing.Point(16, 16);
-			this.tabControl1.Name = "tabControl1";
-			this.tabControl1.SelectedIndex = 0;
-			this.tabControl1.Size = new System.Drawing.Size(635, 371);
-			this.tabControl1.TabIndex = 0;
-			// 
-			// tabPage2
-			// 
-			this.tabPage2.Location = new System.Drawing.Point(4, 22);
-			this.tabPage2.Name = "tabPage2";
-			this.tabPage2.Size = new System.Drawing.Size(627, 345);
-			this.tabPage2.TabIndex = 1;
-			this.tabPage2.Text = "Configuration";
-			// 
-			// Form1
-			// 
-			this.ClientSize = new System.Drawing.Size(663, 399);
-			this.Controls.Add(this.tabControl1);
-			this.Name = "Form1";
-			this.Text = "Blind Test Musical";
-			this.tabPage1.ResumeLayout(false);
-			this.tabControl1.ResumeLayout(false);
-			this.ResumeLayout(false);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.SeaShell;
+            this.label1.Location = new System.Drawing.Point(156, 28);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(400, 43);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Quel est le titre de la musique ?";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightSalmon;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(541, 312);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(139, 47);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Valider";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton1.Font = new System.Drawing.Font("Monotype Corsiva", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.ForeColor = System.Drawing.Color.SeaShell;
+            this.radioButton1.Location = new System.Drawing.Point(41, 110);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(121, 43);
+            this.radioButton1.TabIndex = 10;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Choix 1";
+            this.radioButton1.UseVisualStyleBackColor = false;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton2.Font = new System.Drawing.Font("Monotype Corsiva", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.ForeColor = System.Drawing.Color.SeaShell;
+            this.radioButton2.Location = new System.Drawing.Point(41, 177);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(121, 43);
+            this.radioButton2.TabIndex = 11;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Choix 2";
+            this.radioButton2.UseVisualStyleBackColor = false;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton3.Font = new System.Drawing.Font("Monotype Corsiva", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton3.ForeColor = System.Drawing.Color.SeaShell;
+            this.radioButton3.Location = new System.Drawing.Point(41, 252);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(121, 43);
+            this.radioButton3.TabIndex = 12;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Choix 3";
+            this.radioButton3.UseVisualStyleBackColor = false;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton4.Font = new System.Drawing.Font("Monotype Corsiva", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton4.ForeColor = System.Drawing.Color.SeaShell;
+            this.radioButton4.Location = new System.Drawing.Point(41, 312);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(121, 43);
+            this.radioButton4.TabIndex = 13;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "Choix 4";
+            this.radioButton4.UseVisualStyleBackColor = false;
+            // 
+            // Form1
+            // 
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(704, 380);
+            this.Controls.Add(this.radioButton4);
+            this.Controls.Add(this.radioButton3);
+            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Name = "Form1";
+            this.Text = "Blind Test Musical";
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
 		}
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioButton4;
 
-		#endregion
-		/// <summary>
-		/// 
-		/// </summary>
+        #endregion
 
-	}
+        /// <summary>
+        /// 
+        /// </summary>
+
+    }
 }
 
