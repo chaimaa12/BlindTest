@@ -114,9 +114,10 @@
 			// 
 			this.button.Location = new System.Drawing.Point(57, 251);
 			this.button.Name = "button";
-			this.button.Text = "Valider";
 			this.button.Size = new System.Drawing.Size(112, 31);
 			this.button.TabIndex = 6;
+			this.button.Text = "Valider";
+			this.button.Click += new System.EventHandler(this.button_Click);
 			// 
 			// tabControl1
 			// 
@@ -143,7 +144,6 @@
 			this.Name = "Form1";
 			this.Text = "Blind Test Musical";
 			this.tabPage1.ResumeLayout(false);
-			this.tabPage2.ResumeLayout(false);
 			this.tabControl1.ResumeLayout(false);
 			this.ResumeLayout(false);
 
