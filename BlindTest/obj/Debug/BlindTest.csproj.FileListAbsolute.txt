@@ -7,3 +7,13 @@ C:\Users\chaim\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\bin\Deb
 C:\Users\chaim\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\bin\Debug\BlindTest.pdb
 C:\Users\chaim\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debug\BlindTest.exe
 C:\Users\chaim\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debug\BlindTest.pdb
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\bin\Debug\BlindTest.exe.config
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\bin\Debug\BlindTest.exe
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\bin\Debug\BlindTest.pdb
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debug\BlindTest.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debug\BlindTest.Form1.resources
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debug\BlindTest.Accueil.resources
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debug\BlindTest.Properties.Resources.resources
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debug\BlindTest.csproj.GenerateResource.Cache
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debug\BlindTest.exe
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debug\BlindTest.pdb

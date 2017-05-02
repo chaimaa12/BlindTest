@@ -41,7 +41,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.LightSalmon;
             this.button1.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(63, 204);
+            this.button1.Location = new System.Drawing.Point(62, 261);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(139, 47);
             this.button1.TabIndex = 0;
@@ -53,7 +53,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.PaleVioletRed;
             this.button2.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(257, 204);
+            this.button2.Location = new System.Drawing.Point(289, 261);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(139, 47);
             this.button2.TabIndex = 2;
@@ -65,7 +65,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.LightPink;
             this.button3.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(456, 204);
+            this.button3.Location = new System.Drawing.Point(511, 261);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(139, 47);
             this.button3.TabIndex = 3;
@@ -76,7 +76,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(257, 34);
+            this.pictureBox2.Location = new System.Drawing.Point(286, 68);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(142, 139);
             this.pictureBox2.TabIndex = 5;
@@ -87,11 +87,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(636, 336);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(704, 380);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.DoubleBuffered = true;
             this.Name = "Accueil";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Accueil_Load);
