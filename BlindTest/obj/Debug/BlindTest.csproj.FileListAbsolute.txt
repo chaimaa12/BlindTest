@@ -18,3 +18,4 @@ C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debu
 C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debug\BlindTest.exe
 C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debug\BlindTest.pdb
 C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debug\BlindTest.Result.resources
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debug\BlindTest.Reglements.resources
