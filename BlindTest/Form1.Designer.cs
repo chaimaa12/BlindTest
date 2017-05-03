@@ -96,7 +96,7 @@ namespace BlindTest
             this.radioButton1.ForeColor = System.Drawing.Color.SeaShell;
             this.radioButton1.Location = new System.Drawing.Point(41, 110);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(141, 41);
+            this.radioButton1.Size = new System.Drawing.Size(121, 43);
             this.radioButton1.TabIndex = 10;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Choix 1";
@@ -111,7 +111,7 @@ namespace BlindTest
             this.radioButton2.ForeColor = System.Drawing.Color.SeaShell;
             this.radioButton2.Location = new System.Drawing.Point(41, 177);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(143, 41);
+            this.radioButton2.Size = new System.Drawing.Size(121, 43);
             this.radioButton2.TabIndex = 11;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Choix 2";
@@ -126,7 +126,7 @@ namespace BlindTest
             this.radioButton3.ForeColor = System.Drawing.Color.SeaShell;
             this.radioButton3.Location = new System.Drawing.Point(41, 252);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(143, 41);
+            this.radioButton3.Size = new System.Drawing.Size(121, 43);
             this.radioButton3.TabIndex = 12;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Choix 3";
@@ -140,7 +140,7 @@ namespace BlindTest
             this.radioButton4.ForeColor = System.Drawing.Color.SeaShell;
             this.radioButton4.Location = new System.Drawing.Point(41, 312);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(143, 41);
+            this.radioButton4.Size = new System.Drawing.Size(121, 43);
             this.radioButton4.TabIndex = 13;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Choix 4";
@@ -159,6 +159,7 @@ namespace BlindTest
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Blind Test Musical";
             this.ResumeLayout(false);
             this.PerformLayout();
