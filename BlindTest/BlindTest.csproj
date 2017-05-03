@@ -67,6 +67,12 @@
     <Compile Include="Accueil.Designer.cs">
       <DependentUpon>Accueil.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reglements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reglements.Designer.cs">
+      <DependentUpon>Reglements.cs</DependentUpon>
+    </Compile>
     <Compile Include="Result.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +96,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Reglements.resx">
+      <DependentUpon>Reglements.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Result.resx">
       <DependentUpon>Result.cs</DependentUpon>
     </EmbeddedResource>

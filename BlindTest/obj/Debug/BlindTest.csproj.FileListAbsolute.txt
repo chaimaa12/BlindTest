@@ -18,6 +18,7 @@ C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debu
 C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debug\BlindTest.exe
 C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debug\BlindTest.pdb
 C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debug\BlindTest.Result.resources
+<<<<<<< HEAD
 C:\Users\chaim\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debug\BlindTest.Accueil.resources
 C:\Users\chaim\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debug\BlindTest.Result.resources
 C:\Users\chaim\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\bin\Debug\E.Deezer.dll
@@ -25,3 +26,6 @@ C:\Users\chaim\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\bin\Deb
 C:\Users\chaim\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\bin\Debug\RestSharp.xml
 C:\Users\chaim\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\bin\Debug\NAudio.dll
 C:\Users\chaim\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\bin\Debug\NAudio.xml
+=======
+C:\Users\DELL\Documents\Visual Studio 2017\Projects\BlindTest\BlindTest\obj\Debug\BlindTest.Reglements.resources
+>>>>>>> develop
