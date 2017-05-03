@@ -8,8 +8,9 @@ namespace BlindTest
 {
 	class Music
 	{
-		public String Titre { get; set; }
-		public String Link { get; set; }
-		public String Genre { get; set; }
+		private String Title { get; set; }
+		private String Link { get; set; }
+		private String Artist { get; set; }
+	
 	}
 }

@@ -8,6 +8,9 @@ namespace BlindTest
 {
 	static class Program
 	{
+
+
+
 		/// <summary>
 		/// Point d'entrée principal de l'application.
 		/// </summary>
